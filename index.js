@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('**<a:9FAF7C0CF0104A2F979F1263DF55D91A:855230044258828328> پێویستە تۆ لە ڤۆیسەکە بیت **'); 
+message.reply('** پێویستە تۆ لە ڤۆیسەکە بیت **'); 
 
 } 
 
@@ -36,10 +36,10 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/AkYA68Z2gG`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/aCtw8UTZJJ`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("841792552314994709").send(
-`> <a:E14567BBEE164342AF58DF6872011807:853287588390633502> By: <@${message.author.id}> ✅ 
+  client.channels.get("842032106125131818").send(
+`> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
     }
@@ -57,4 +57,4 @@ client.user.setGame(`Rose 💙`)
 
 
 
-client.login("");// Your Token
+client.login("ODU3NjM5MjI4NzIwMDIxNTY0.YNSgxg.kV6dSmsmPzQk7Oi3oLRBIe1x82c");// Your Token
